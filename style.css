@@ -6,6 +6,10 @@
     --pale-color: #cbb08d;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 
 body {
     font-family: Arial, sans-serif;
@@ -66,7 +70,8 @@ header {
 }
 
 .navbar {
-    width: 100vw;
+    width: 100%;
+    max-width: 100vw;
     background-color: #fff;
     padding: 1px 0;
 
