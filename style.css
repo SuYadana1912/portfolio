@@ -71,7 +71,6 @@ header {
 
 .navbar {
     width: 100%;
-    max-width: 100%;
     background-color: #fff;
     padding: 1px 0;
     margin: 0;
@@ -87,8 +86,15 @@ header {
 .navbar ul {
     display: flex;
     justify-content: center;
-    text-align: center;
+    gap: 70px;
+
     list-style: none;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.navbar li {
+  margin: 0;
 }
 
 .navbar a {
@@ -141,16 +147,15 @@ main {
 
 .projects {
     width: 100%;
-    /* margin: 0 5%; */
     padding: 20px;
 }
 
 .projects-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-
-    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
 
 .projects-card {
