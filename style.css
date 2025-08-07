@@ -86,6 +86,7 @@ header {
 .navbar ul {
     display: flex;
     justify-content: center;
+    text-align: center;
     gap: 70px;
 
     list-style: none;
@@ -222,6 +223,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 
     background-color: var(--primary-color);
     color: #fff;
